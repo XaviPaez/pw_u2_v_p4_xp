@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <Calculadora></Calculadora>
+ <Juego/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Calculadora from './components/Calculadora.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import Calculadora from './components/Calculadora.vue'
+ import Juego from './components/Juego.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Calculadora
+    // HelloWorld,
+    // Calculadora,
+    Juego
   }
 }
 </script>
